@@ -1,0 +1,46 @@
+.cart {
+  position: fixed;
+  top: 0;
+  right: -350px; 
+  width: 300px;
+  height: 100vh;
+  background: #110f0fb7;
+  box-shadow: -10px 0 8px rgba(40, 74, 168, 0.688);
+  transition: right 0.3s ease;
+  padding: 20px;
+  color: antiquewhite;
+  overflow: auto;
+     backdrop-filter: blur(40px) brightness(1);
+  
+}
+
+.cart.show {
+  right: 0; 
+}
+
+/* .cart-close {
+background-color: #110f0f;
+} */
+
+.cart-close-button{
+  background-color: #110f0f36;
+  border-radius: 10px;
+}
+
+.cart-close-icon{
+  color: antiquewhite;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    width: 40%;
+    right: -100%;
+  }
+  
+  .cart.show {
+    right: 0;
+  } 
+    
+}
+

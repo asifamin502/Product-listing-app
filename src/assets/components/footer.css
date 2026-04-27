@@ -1,0 +1,18 @@
+footer{
+    background: linear-gradient(to right, #003122, #12006a);
+color: ghostwhite ;
+height: 8vh;
+text-align: center;
+font-size: 1.5rem;
+}
+
+footer p{
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        font-size: 1rem;
+    }
+    
+}
