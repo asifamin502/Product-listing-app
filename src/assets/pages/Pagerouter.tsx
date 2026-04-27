@@ -139,6 +139,7 @@ const showproduct=searchedproduct.slice(startpage,endpage)
 
 
         <BrowserRouter>
+        
         <Navbar addsearchome={addsearchome} productlength={productlength} setCarttoggle={setCarttoggle} carttoggle={carttoggle} cartproducts={cartproducts} increaseQty={increaseQty} decreaseQty={decreaseQty} totalprice={totalprice}  />
         <Routes>
 <Route path='/' element={<Home bannerproducts={products} products={searchedproduct} addtocart={addtocart} searchedproduct={searchedproduct} loading={loading}  setPage={setPage} page={page} showproduct={showproduct} />}/>

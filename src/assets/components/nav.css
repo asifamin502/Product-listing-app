@@ -149,6 +149,14 @@
     color: #2b1466;
 }
 
+.logo{
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    left: 2%;
+    bottom: 0.2px;
+}
+
 @media screen and (max-width: 768px) {
   .search-div {
     width: 50%;
@@ -164,5 +172,10 @@
   
   font-size: 0.7rem;
 }
-
+.logo{
+    width: 50px;
+    height: 5vh;
+   
+    bottom: 0.2px;
+}
 }

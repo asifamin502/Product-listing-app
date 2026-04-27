@@ -7,6 +7,7 @@ import { AiTwotoneFire } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
 import { TfiShoppingCart } from "react-icons/tfi";
 import Cart from "../components/Cart";
+import cartifylogo from '../../image/cartify.png'
 
 type propstype={
    addsearchome: (searchvalue: string) => void;
@@ -38,8 +39,10 @@ const Navbar = ({addsearchome, productlength, setCarttoggle,carttoggle,cartprodu
   return (
     <div>
     <nav className='nav'>
+       <img className="logo" src={cartifylogo} alt="logo"/>
       <button className="mobile_button" onClick={()=>{setToggle(!toggle)}}><BsMenuButtonWide className='mobile_menuicon'/></button>
        <div className={toggle? "menu open" : "menu"}>
+       
        <NavLink className="NavLink" to="/fragrances">Fragrances</NavLink>
        <NavLink className="NavLink" to="/cosmetics">Cosmetics</NavLink>
        <NavLink className="NavLink_home" to="/">Home</NavLink>
