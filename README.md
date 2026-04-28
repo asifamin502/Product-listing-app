@@ -1,7 +1,7 @@
 
 ---
 
-# 📄 2. Product Listing App README
+# Product Listing App README
 
 ```md
 # Product Listing App
@@ -18,9 +18,9 @@ https://cartify-product-app.netlify.app/
 - Loading state handling
 
 ## Tech Stack
-- React
-- JavaScript / TypeScript
-- CSS / Tailwind
+- React With TypeScript
+- JavaScript 
+- CSS 
 - API Integration
 
 ## Installation
