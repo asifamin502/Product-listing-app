@@ -23,6 +23,9 @@ https://cartify-product-app.netlify.app/
 - CSS 
 - API Integration
 
+## 📸 Screenshot
+![App Screenshot](./productlisting.png)
+
 ## Installation
 
 ```bash
@@ -31,5 +34,4 @@ cd product-listing-app
 npm install
 npm run dev
 
-## 📸 Screenshot
-![App Screenshot](./productlisting.png)
+
