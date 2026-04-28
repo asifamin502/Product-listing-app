@@ -1,37 +1,32 @@
+# 🛍️ Product Listing App
 
----
+A responsive product listing web application built with React and TypeScript. It fetches product data from an API and displays them in a clean UI.
 
-# Product Listing App README
+## 🚀 Live Demo
+👉 https://your-product-app.netlify.app
 
-```md
-# Product Listing App
-
-A responsive product listing application that displays products dynamically using API data.
-
-## Live Demo
-https://cartify-product-app.netlify.app/
-
-## Features
+## ✨ Features
 - Fetch products from API
-- Display product list
+- Dynamic product display
 - Responsive design
-- Loading state handling
+- Clean UI layout
 
-## Tech Stack
-- React With TypeScript
-- JavaScript 
-- CSS 
-- API Integration
+## 🛠️ Tech Stack
+- React
+- TypeScript
+- Vite
+- CSS
+
+## 🌐 API Used
+https://fakestoreapi.com/products
 
 ## 📸 Screenshot
 ![App Screenshot](./productlisting.png)
 
-## Installation
+## 📦 Installation
 
 ```bash
 git clone git@github.com:asifamin502/Product-listing-app.git
-cd product-listing-app
+cd Product-listing-app
 npm install
 npm run dev
-
-
