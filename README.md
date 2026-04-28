@@ -19,10 +19,10 @@ https://cartify-product-app.netlify.app/
 ## API Used
 https://fakestoreapi.com/products
 
-## 📸 Screenshot
+## Screenshot
 ![App Screenshot](./productlisting.png)
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone git@github.com:asifamin502/Product-listing-app.git
