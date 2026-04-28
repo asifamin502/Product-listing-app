@@ -32,4 +32,4 @@ npm install
 npm run dev
 
 ## 📸 Screenshot
-![App Screenshot](./productlisting.png)
+./productlisting.png
